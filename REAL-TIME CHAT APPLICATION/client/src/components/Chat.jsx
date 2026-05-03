@@ -84,9 +84,9 @@ function Chat({ auth, logout }) {
   );
 
   return (
-    <div className="relative flex min-h-dvh items-center justify-center overflow-hidden bg-black text-white sm:p-4 lg:p-6">
-      <div className="absolute -top-24 right-0 h-80 w-80 rounded-full bg-violet-700 opacity-40 blur-[130px] sm:h-130 sm:w-130 lg:h-170 lg:w-170" />
-      <div className="absolute -bottom-20 left-0 h-72 w-72 rounded-full bg-blue-700 opacity-30 blur-[130px] sm:h-105 sm:w-105 lg:left-72 lg:h-130 lg:w-130" />
+     <div className="h-screen flex items-center justify-center bg-black relative overflow-hidden text-white">
+      <div className="absolute w-[680px] h-[680px] bg-violet-700 blur-[150px] opacity-40 rounded-full top-8" />
+      <div className="absolute w-[520px] h-[520px] bg-blue-700 blur-[160px] opacity-30 rounded-full left-72 bottom-8" />
 
       <div className="relative flex h-dvh w-full flex-col overflow-hidden bg-white/5 backdrop-blur-xl sm:h-[94dvh] sm:w-[96%] sm:rounded-2xl sm:border sm:border-white/15 lg:h-[86vh] lg:w-[92%] lg:flex-row xl:w-[90%]">
         <div className="flex max-h-[38dvh] w-full shrink-0 flex-col border-b border-white/10 p-3 sm:max-h-[34dvh] sm:p-4 lg:max-h-none lg:h-full lg:w-70 lg:border-b-0 lg:border-r xl:w-[27%] xl:min-w-65">
